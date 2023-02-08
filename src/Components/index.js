@@ -1,0 +1,5 @@
+export {default as NavBar}from './Home/NavBar/NavBar'
+export {default as HomeMain}from './Home/HomeMain/HomeMain'
+export {default as HomeProducts}from './Home/HomeProducts/HomeProducts'
+export {default as Product}from './Home/Product/Product'
+export {default as Footter}from './Home/Footter/Footter'

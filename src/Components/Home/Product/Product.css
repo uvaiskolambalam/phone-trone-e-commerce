@@ -1,0 +1,117 @@
+.product{
+    /* background-color: red; */
+    width: 10rem;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgb(155, 154, 154);
+    /* transform: 2rem; */
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.product:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgb(155, 154, 154);
+
+}
+
+.product-image{
+    width: 10rem;
+    height: 8rem;
+    overflow: hidden;
+}
+.product-image img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-Name{
+    font-size: 12px;
+    color: blue;
+}
+.product-details{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.product-details{
+    font-size: 10px;
+}
+
+.Product-prize{
+    font-size: 16px;
+    color: red;
+}
+.button button{
+    padding: .5rem;
+    border: none;
+    /* font-size: 12px; */
+    
+    
+    background-color: orange;
+    color: white;
+    
+    
+    
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+    /* background-color: red; */
+    color: white;
+    
+    
+}
+.Product-buttons{
+    display: flex;
+    gap: .1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.product-details{
+    padding: 1rem;
+    overflow: hidden;
+}
+.underLine hr{
+    
+    /* width: 50%; */
+    display: none;
+   
+    position: absolute;
+    align-items: center;
+    left: -220px;
+    bottom: -7px;
+    width: 11.5rem;
+    height: 7px;
+    background-color: rgb(160, 160, 161);
+    border: none;
+    border-radius: 7px 7px 0px 0px;
+    /* box-shadow: 1px 1px 10px rgb(155, 154, 154); */
+    /* z-index: 1; */
+    
+
+    
+}
+.underLine{
+    position: relative;
+    
+    
+    
+   
+}
+.product:hover + .underLine hr{
+    display: block;
+    
+}
